@@ -5,6 +5,8 @@ DefaultContentLanguage = "en"
 title = "ImpossibleTerminal"
 theme = "hugo-theme-techdoc"
 
+profilePicture = "images/profile_pic.png"
+
 hasCJKLanguage = true
 metaDataFormat = "yaml"
 
@@ -40,9 +42,9 @@ enableMissingTranslationPlaceholders = false
     # Theme settings section
     # Theme color
     # See color value reference https://developer.mozilla.org/en-US/docs/Web/CSS/color
-    custom_font_color = "moon-gray"
-    custom_background_color = "near-black"
-
+    custom_font_color = "#32CD32"
+    custom_background_color = "#111111"
+    
     # Documentation Menu section
     # Menu style settings
     menu_style = "slide-menu" # "open-menu" or "slide-menu" or "" blank is as no sidebar
@@ -125,3 +127,5 @@ enableMissingTranslationPlaceholders = false
         "tags",
         "categories",
     ]
+
+mainSections = ["CTFs"]
