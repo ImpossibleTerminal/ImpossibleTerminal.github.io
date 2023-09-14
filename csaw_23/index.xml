@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSAW&#39;23 - Qualification Round on ImpossibleTerminal</title>
+    <link>https://ImpossibleTerminal.github.io/csaw_23/</link>
+    <description>Recent content in CSAW&#39;23 - Qualification Round on ImpossibleTerminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Sep 2023 17:28:35 -0500</lastBuildDate><atom:link href="https://ImpossibleTerminal.github.io/csaw_23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forensics</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/forensics/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/forensics/</guid>
+      <description>PCAPs and file carving and memory dumps (oh my!) Capybara Easy Congratulations Easy Unsupported Format Easy Evil Monkey 1 Medium Evil Monkey 2 Medium Read The EULA Medium Unsupported Format 2 Medium Elbonia Hard Gotta Ping Em All Expert </description>
+    </item>
+    
+    <item>
+      <title>OSINT</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/osint/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/osint/</guid>
+      <description>Who&amp;rsquo;s shooting those cyber bullets at me? Bad Documentation Easy Rouge Access Point Easy Satellite Killer Easy Karter Medium Marketing Campaign Hard Name That Plane Hard </description>
+    </item>
+    
+    <item>
+      <title>Pwn</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/pwn/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/pwn/</guid>
+      <description>Good old-fashioned binary exploitation! guessinggame Beginner bookshelf Easy printshop Easy bookshelfv2 Medium Note Taker Expert softshell Expert </description>
+    </item>
+    
+    <item>
+      <title>Reverse Engineering</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/rev/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/rev/</guid>
+      <description>Figuring out how things work, then breaking those things! Python XOR Beginner Coffee Shop Easy Patchwork Easy Python Garbage Compiler Medium Suboptimal Medium GoLmoL Hard Reduced Reduced Instruction Set Hard Reduced Reduced Instruction Set 2 Expert </description>
+    </item>
+    
+    <item>
+      <title>Trivia</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/trivia/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/trivia/</guid>
+      <description>New York University (NYU) Tandon School of Engineering related challenges and questions! 1972 Schism Beginner Mascot Conundrum Beginner Final Four Easy Getting down like a bunch of Tito Clowns Easy Mason ID OSINT Easy </description>
+    </item>
+    
+  </channel>
+</rss>

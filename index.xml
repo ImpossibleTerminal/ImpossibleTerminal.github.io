@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on ImpossibleTerminal</title>
+    <link>https://ImpossibleTerminal.github.io/</link>
+    <description>Recent content in Home on ImpossibleTerminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Sep 2023 17:28:35 -0500</lastBuildDate><atom:link href="https://ImpossibleTerminal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forensics</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/forensics/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/forensics/</guid>
+      <description>PCAPs and file carving and memory dumps (oh my!) Capybara Easy Congratulations Easy Unsupported Format Easy Evil Monkey 1 Medium Evil Monkey 2 Medium Read The EULA Medium Unsupported Format 2 Medium Elbonia Hard Gotta Ping Em All Expert </description>
+    </item>
+    
+    <item>
+      <title>Forensics</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/forensics/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/forensics/</guid>
+      <description>PCAPs and file carving and memory dumps (oh my!) Capybara Easy Congratulations Easy Unsupported Format Easy Evil Monkey 1 Medium Evil Monkey 2 Medium Read The EULA Medium Unsupported Format 2 Medium Elbonia Hard Gotta Ping Em All Expert </description>
+    </item>
+    
+    <item>
+      <title>OSINT</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/osint/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/osint/</guid>
+      <description>Who&amp;rsquo;s shooting those cyber bullets at me? Bad Documentation Easy Rouge Access Point Easy Satellite Killer Easy Karter Medium Marketing Campaign Hard Name That Plane Hard </description>
+    </item>
+    
+    <item>
+      <title>OSINT</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/osint/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/osint/</guid>
+      <description>Who&amp;rsquo;s shooting those cyber bullets at me? Bad Documentation Easy Rouge Access Point Easy Satellite Killer Easy Karter Medium Marketing Campaign Hard Name That Plane Hard </description>
+    </item>
+    
+    <item>
+      <title>Pwn</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/pwn/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/pwn/</guid>
+      <description>Good old-fashioned binary exploitation! guessinggame Beginner bookshelf Easy printshop Easy bookshelfv2 Medium Note Taker Expert softshell Expert </description>
+    </item>
+    
+    <item>
+      <title>Pwn</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/pwn/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/pwn/</guid>
+      <description>Good old-fashioned binary exploitation! guessinggame Beginner bookshelf Easy printshop Easy bookshelfv2 Medium Note Taker Expert softshell Expert </description>
+    </item>
+    
+    <item>
+      <title>Reverse Engineering</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/rev/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/rev/</guid>
+      <description>Figuring out how things work, then breaking those things! Python XOR Beginner Coffee Shop Easy Patchwork Easy Python Garbage Compiler Medium Suboptimal Medium GoLmoL Hard Reduced Reduced Instruction Set Hard Reduced Reduced Instruction Set 2 Expert </description>
+    </item>
+    
+    <item>
+      <title>Reverse Engineering</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/rev/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/rev/</guid>
+      <description>Figuring out how things work, then breaking those things! Python XOR Beginner Coffee Shop Easy Patchwork Easy Python Garbage Compiler Medium Suboptimal Medium GoLmoL Hard Reduced Reduced Instruction Set Hard Reduced Reduced Instruction Set 2 Expert </description>
+    </item>
+    
+    <item>
+      <title>Trivia</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/trivia/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/trivia/</guid>
+      <description>New York University (NYU) Tandon School of Engineering related challenges and questions! 1972 Schism Beginner Mascot Conundrum Beginner Final Four Easy Getting down like a bunch of Tito Clowns Easy Mason ID OSINT Easy </description>
+    </item>
+    
+    <item>
+      <title>Trivia</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/trivia/</link>
+      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/trivia/</guid>
+      <description>George Mason University related challenges and questions! 1972 Schism Beginner Mascot Conundrum Beginner Final Four Easy Getting down like a bunch of Tito Clowns Easy Mason ID OSINT Easy </description>
+    </item>
+    
+    <item>
+      <title>Breakfast Club</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/crypto/breakfast_club/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/crypto/breakfast_club/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Breakfast Club</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/breakfast_club/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/breakfast_club/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Multi-numeral</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/crypto/mult-numeral/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/crypto/mult-numeral/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Multi-numeral</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/mult-numeral/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/mult-numeral/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>My Phone</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/my_phone/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/my_phone/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>My Phone!</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/crypto/my_phone/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/crypto/my_phone/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Scavenger Hunt</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/web/scavenger_hunt/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/web/scavenger_hunt/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Scavenger Hunt</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/web/scavenger_hunt/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/web/scavenger_hunt/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Secret Wall Code</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/crypto/secret_wall_code/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/crypto/secret_wall_code/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Secret Wall Code</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/secret_wall_code/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/secret_wall_code/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Twins</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/misc/twins/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/misc/twins/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Twins</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/misc/twins/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/misc/twins/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Uh Oh!</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/misc/uh_oh/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/misc/uh_oh/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Uh Oh!</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/misc/uh_oh/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/misc/uh_oh/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/misc/welcome/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/misc/welcome/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/misc/welcome/</link>
+      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/misc/welcome/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+  </channel>
+</rss>

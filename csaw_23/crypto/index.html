@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Cryptography - ImpossibleTerminal</title>
+<meta name="description" content="Completed Cryptography Challenges and their write-ups during the CSAW&#39;23 Qualification Round Event.">
+<meta name="generator" content="Hugo 0.118.2">
+<link href="https://ImpossibleTerminal.github.io/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://ImpossibleTerminal.github.io/csaw_23/crypto/">
+<link rel="stylesheet" href="https://ImpossibleTerminal.github.io/css/theme.min.css">
+<link rel="stylesheet" href="https://ImpossibleTerminal.github.io/css/chroma.min.css">
+<script defer src="https://ImpossibleTerminal.github.io/js/fontawesome6/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
+<script src="https://ImpossibleTerminal.github.io/js/bundle.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1F5H5HMPM6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1F5H5HMPM6');
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KS2W8N86');</script>
+<style>
+:root {--custom-font-color: #32CD32;--custom-background-color: #111111;}
+</style>
+<meta property="og:title" content="Cryptography" />
+<meta property="og:description" content="Completed Cryptography Challenges and their write-ups during the CSAW&#39;23 Qualification Round Event." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ImpossibleTerminal.github.io/csaw_23/crypto/" /><meta property="og:image" content="https://ImpossibleTerminal.github.io/images/PatriotCTF_2023_Logo.png" /><meta property="og:site_name" content="Hugo Techdoc Theme" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://ImpossibleTerminal.github.io/images/PatriotCTF_2023_Logo.png"/>
+
+<meta name="twitter:title" content="Cryptography"/>
+<meta name="twitter:description" content="Completed Cryptography Challenges and their write-ups during the CSAW&#39;23 Qualification Round Event."/>
+<meta itemprop="name" content="Cryptography">
+<meta itemprop="description" content="Completed Cryptography Challenges and their write-ups during the CSAW&#39;23 Qualification Round Event."></head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS2W8N86"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="container"><header>
+<h1>ImpossibleTerminal</h1><a href="https://github.com/ImpossibleTerminal/ImpossibleTerminal.github.io.git" class="github"><i class="fab fa-github"></i></a>
+<p class="description">Write-Ups for Completed CTFs</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li id="home" class=""><a href="/">Home</a></li>
+<li id="about" class=""><a href="https://twitter.com/thingsym">About</a></li></ul>
+</nav>
+</div>
+
+<div class="content-container">
+<main><h1>Cryptography</h1><h3 id="code-breaking-cipher-smashing-and-math-that-fights-back">Code breaking, cipher smashing, and math that fights back!</h3>
+<ul>
+<li><a href="CSAW_23/Crypto/Multi-numeral/">Multi-numeral <span style="color:white">Beginner</span></a></li>
+<li><a href="CSAW_23/Crypto/My_Phone/">My Phone! <span style="color:green">Easy</span></a></li>
+<li>ReReCaptcha <span style="color:green">Easy</span></li>
+<li><a href="CSAW_23/Crypto/Breakfast_Club/">Breakfast Club <span style="color:yellow">Medium</span></a></li>
+<li><a href="CSAW_23/Crypto/Secret_Wall_Code/">Secret Wall Code <span style="color:yellow">Medium</span></a></li>
+<li>Mason Competitive Cyber <span style="color:yellow">Medium</span></li>
+<li>Mason Competitive Cyber 2 <span style="color:orange">Hard</span></li>
+</ul>
+<div class="edit-meta">
+Last updated on 2023-09-13
+
+
+<br>
+Published on 2023-09-13
+<br><a href="https://github.com/ImpossibleTerminal/ImpossibleTerminal.github.io.git/edit/main/CSAW_23%5cCrypto%5c_index.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://ImpossibleTerminal.github.io/csaw_23/" title="CSAW&#39;23 - Qualification Round"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - CSAW&#39;23 - Qualification Round</a>
+<a class="nav nav-next" href="https://ImpossibleTerminal.github.io/csaw_23/crypto/breakfast_club/" title="Breakfast Club">Next - Breakfast Club <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="slide-menu">
+<ul>
+<li class=""><a href="https://ImpossibleTerminal.github.io">Home</a></li>
+
+<li class=" has-sub-menu"><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/">PatriotCTF 2023<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+
+<li class=" has-sub-menu"><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/">Cryptography<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/breakfast_club/">Breakfast Club</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/mult-numeral/">Multi-numeral</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/my_phone/">My Phone</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/secret_wall_code/">Secret Wall Code</a></li>
+</ul>
+  
+</li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/forensics/">Forensics</a></li>
+
+<li class=" has-sub-menu"><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/misc/">Miscellaneous<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/misc/twins/">Twins</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/misc/uh_oh/">Uh Oh!</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/misc/welcome/">Welcome</a></li>
+</ul>
+  
+</li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/osint/">OSINT</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/pwn/">Pwn</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/rev/">Reverse Engineering</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/trivia/">Trivia</a></li>
+
+<li class=" has-sub-menu"><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/web/">Web<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/web/scavenger_hunt/">Scavenger Hunt</a></li>
+</ul>
+  
+</li>
+</ul>
+  
+</li>
+
+<li class="parent has-sub-menu"><a href="https://ImpossibleTerminal.github.io/csaw_23/">CSAW&#39;23 - Qualification Round<span class="mark opened">-</span></a>
+  
+<ul class="sub-menu">
+
+<li class=" active has-sub-menu"><a href="https://ImpossibleTerminal.github.io/csaw_23/crypto/">Cryptography<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/crypto/breakfast_club/">Breakfast Club</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/crypto/mult-numeral/">Multi-numeral</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/crypto/my_phone/">My Phone!</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/crypto/secret_wall_code/">Secret Wall Code</a></li>
+</ul>
+  
+</li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/forensics/">Forensics</a></li>
+
+<li class=" has-sub-menu"><a href="https://ImpossibleTerminal.github.io/csaw_23/misc/">Miscellaneous<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/misc/twins/">Twins</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/misc/uh_oh/">Uh Oh!</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/misc/welcome/">Welcome</a></li>
+</ul>
+  
+</li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/osint/">OSINT</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/pwn/">Pwn</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/rev/">Reverse Engineering</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/trivia/">Trivia</a></li>
+
+<li class=" has-sub-menu"><a href="https://ImpossibleTerminal.github.io/csaw_23/web/">Web<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/web/scavenger_hunt/">Scavenger Hunt</a></li>
+</ul>
+  
+</li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>
