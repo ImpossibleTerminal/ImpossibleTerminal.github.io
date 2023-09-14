@@ -98,6 +98,15 @@
     </item>
     
     <item>
+      <title>About</title>
+      <link>https://ImpossibleTerminal.github.io/about/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/about/</guid>
+      <description>Hacker learning the tools of the trade via TryHackMe and HTB.</description>
+    </item>
+    
+    <item>
       <title>Breakfast Club</title>
       <link>https://ImpossibleTerminal.github.io/csaw_23/crypto/breakfast_club/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
