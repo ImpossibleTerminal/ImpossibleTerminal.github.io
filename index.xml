@@ -108,19 +108,33 @@
     
     <item>
       <title>Breakfast Club</title>
-      <link>https://ImpossibleTerminal.github.io/csaw_23/crypto/breakfast_club/</link>
-      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/breakfast_club/</link>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
       
-      <guid>https://ImpossibleTerminal.github.io/csaw_23/crypto/breakfast_club/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/breakfast_club/</guid>
+      <description>Write-Up Download the files provided for the challenge (BreakfastPasswords.txt).
+Long Version:
+Split downloaded file into single hash files. Utilize john and hashcat to crack each file (ensuring to set correct hash format). john &amp;lt;filename&amp;gt; --format=&amp;lt;hash_type&amp;gt; hashcat -a 3 -m &amp;lt;hash_type&amp;gt; &amp;lt;filename&amp;gt; Each hash crack is a single letter of the Flag. Utilize CyberChef (From: BLAKE2s), to resolve the letter of BLAKE2s hash. Required to guess for both Tuplehashes. Short Version:</description>
+    </item>
+    
+    <item>
+      <title>Secret Wall Code</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/secret_wall_code/</link>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/secret_wall_code/</guid>
+      <description>Write-Up Download the files provided for the challenge (cipher.png and E.png).
+Utilize the Hint for the challenge to arrange the alphabet in the proper order.
+Alpha Z, 6 groups:
+Break the alphabet into 6 groups in order of A-Z. 1 2 3 4 5 6 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Reverse 5 3 1:</description>
     </item>
     
     <item>
       <title>Breakfast Club</title>
-      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/breakfast_club/</link>
+      <link>https://ImpossibleTerminal.github.io/csaw_23/crypto/breakfast_club/</link>
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
-      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/breakfast_club/</guid>
+      <guid>https://ImpossibleTerminal.github.io/csaw_23/crypto/breakfast_club/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
@@ -184,15 +198,6 @@
       <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
       
       <guid>https://ImpossibleTerminal.github.io/csaw_23/crypto/secret_wall_code/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title>Secret Wall Code</title>
-      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/secret_wall_code/</link>
-      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
-      
-      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/secret_wall_code/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
