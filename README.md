@@ -1,2 +1,2 @@
 # ImpossibleTerminal.github.io
-Public Repository for hosting CTF Blog website.
+Public Repository for hosting ImpossibleTerminal CTF website.
