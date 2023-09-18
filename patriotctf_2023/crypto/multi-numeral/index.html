@@ -3,11 +3,11 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Forensics - ImpossibleTerminal</title>
-<meta name="description" content="Completed Forensics Challenges and their write-ups during the CSAW&#39;23 Qualification Round Event.">
+<title>Multi-numeral - ImpossibleTerminal</title>
+<meta name="description" content="Write-Ups for Completed CTFs">
 <meta name="generator" content="Hugo 0.118.2">
 <link href="https://ImpossibleTerminal.github.io/index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://ImpossibleTerminal.github.io/csaw_23/forensics/">
+<link rel="canonical" href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/multi-numeral/">
 <link rel="stylesheet" href="https://ImpossibleTerminal.github.io/css/theme.min.css">
 <link rel="stylesheet" href="https://ImpossibleTerminal.github.io/css/chroma.min.css">
 <script defer src="https://ImpossibleTerminal.github.io/js/fontawesome6/all.min.js"></script>
@@ -31,21 +31,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <style>
 :root {--custom-font-color: #32CD32;--custom-background-color: #111111;}
 </style>
-<meta property="og:title" content="Forensics" />
-<meta property="og:description" content="Completed Forensics Challenges and their write-ups during the CSAW&#39;23 Qualification Round Event." />
+<meta property="og:title" content="Multi-numeral" />
+<meta property="og:description" content="
+Write-Up Download the file provided for the challenge (Challenge.txt).
+Go to decoding website CyberChef (https://gchq.github.io/CyberChef/).
+Copy the text file data and paste into the input section. Select the following Recipes and options: From Binary: Delimiter (Space), Byte Length (8) From Decimal: Delimiter (Space) From Hex: Delimiter (Space) From Base64: Alphabet (A-Za-z0-9&#43;/=), Remove non-alphabet chars (True) Bake Output provides the Flag. FLAG: PCTF{w0w_s0_m4ny_number5} Flag is case sensitive. " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ImpossibleTerminal.github.io/csaw_23/forensics/" /><meta property="og:image" content="https://ImpossibleTerminal.github.io/images/PatriotCTF_2023_Logo.png" /><meta property="article:section" content="CSAW_23" />
-<meta property="article:published_time" content="2023-09-13T17:28:35-05:00" />
-<meta property="article:modified_time" content="2023-09-13T17:28:35-05:00" /><meta property="og:site_name" content="Hugo Techdoc Theme" />
+<meta property="og:url" content="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/multi-numeral/" /><meta property="og:image" content="https://ImpossibleTerminal.github.io/images/patriotctf_2023/Multi-numeral_Challenge.jpg" /><meta property="og:image" content="https://ImpossibleTerminal.github.io/images/patriotctf_2023/Multi-numeral_CyberChef_Decode.png" /><meta property="og:image" content="https://ImpossibleTerminal.github.io/images/patriotctf_2023/Mutli-numeral_file_Challenge.jpg" /><meta property="article:section" content="PatriotCTF_2023" />
+<meta property="article:published_time" content="2023-09-11T10:00:01+00:00" />
+<meta property="article:modified_time" content="2023-09-11T10:00:01+00:00" /><meta property="og:site_name" content="Hugo Techdoc Theme" />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://ImpossibleTerminal.github.io/images/PatriotCTF_2023_Logo.png"/>
+<meta name="twitter:image" content="https://ImpossibleTerminal.github.io/images/patriotctf_2023/Multi-numeral_Challenge.jpg"/>
 
-<meta name="twitter:title" content="Forensics"/>
-<meta name="twitter:description" content="Completed Forensics Challenges and their write-ups during the CSAW&#39;23 Qualification Round Event."/>
-<meta itemprop="name" content="Forensics">
-<meta itemprop="description" content="Completed Forensics Challenges and their write-ups during the CSAW&#39;23 Qualification Round Event."><meta itemprop="datePublished" content="2023-09-13T17:28:35-05:00" />
-<meta itemprop="dateModified" content="2023-09-13T17:28:35-05:00" />
-<meta itemprop="wordCount" content="39"><meta itemprop="image" content="https://ImpossibleTerminal.github.io/images/PatriotCTF_2023_Logo.png">
+<meta name="twitter:title" content="Multi-numeral"/>
+<meta name="twitter:description" content="
+Write-Up Download the file provided for the challenge (Challenge.txt).
+Go to decoding website CyberChef (https://gchq.github.io/CyberChef/).
+Copy the text file data and paste into the input section. Select the following Recipes and options: From Binary: Delimiter (Space), Byte Length (8) From Decimal: Delimiter (Space) From Hex: Delimiter (Space) From Base64: Alphabet (A-Za-z0-9&#43;/=), Remove non-alphabet chars (True) Bake Output provides the Flag. FLAG: PCTF{w0w_s0_m4ny_number5} Flag is case sensitive. "/>
+<meta itemprop="name" content="Multi-numeral">
+<meta itemprop="description" content="
+Write-Up Download the file provided for the challenge (Challenge.txt).
+Go to decoding website CyberChef (https://gchq.github.io/CyberChef/).
+Copy the text file data and paste into the input section. Select the following Recipes and options: From Binary: Delimiter (Space), Byte Length (8) From Decimal: Delimiter (Space) From Hex: Delimiter (Space) From Base64: Alphabet (A-Za-z0-9&#43;/=), Remove non-alphabet chars (True) Bake Output provides the Flag. FLAG: PCTF{w0w_s0_m4ny_number5} Flag is case sensitive. "><meta itemprop="datePublished" content="2023-09-11T10:00:01+00:00" />
+<meta itemprop="dateModified" content="2023-09-11T10:00:01+00:00" />
+<meta itemprop="wordCount" content="66"><meta itemprop="image" content="https://ImpossibleTerminal.github.io/images/patriotctf_2023/Multi-numeral_Challenge.jpg"><meta itemprop="image" content="https://ImpossibleTerminal.github.io/images/patriotctf_2023/Multi-numeral_CyberChef_Decode.png"><meta itemprop="image" content="https://ImpossibleTerminal.github.io/images/patriotctf_2023/Mutli-numeral_file_Challenge.jpg">
 <meta itemprop="keywords" content="" /></head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS2W8N86"
@@ -65,27 +74,46 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <div class="content-container">
-<main><h1>Forensics</h1>
-<h4 id="pcaps-and-file-carving-and-memory-dumps-oh-my">PCAPs and file carving and memory dumps (oh my!)</h4>
+<main><h1>Multi-numeral</h1>
+<p><img src="/images/patriotctf_2023/Multi-numeral_Challenge.jpg" alt="My Phone! Challenge image"></p>
+<hr>
+<h3 id="write-up">Write-Up</h3>
+<ol>
+<li>
+<p>Download the file provided for the challenge (Challenge.txt).</p>
+<p><img src="/images/patriotctf_2023/Multi-numeral_file_Challenge.jpg" alt="Challenge.txt file"></p>
+</li>
+<li>
+<p>Go to decoding website CyberChef (<a href="https://gchq.github.io/CyberChef/)">https://gchq.github.io/CyberChef/)</a>.</p>
 <ul>
-<li>Capybara <span style="color:green">Easy</span></li>
-<li>Congratulations <span style="color:green">Easy</span></li>
-<li>Unsupported Format <span style="color:green">Easy</span></li>
-<li>Evil Monkey 1 <span style="color:yellow">Medium</span></li>
-<li>Evil Monkey 2 <span style="color:yellow">Medium</span></li>
-<li>Read The EULA <span style="color:yellow">Medium</span></li>
-<li>Unsupported Format 2 <span style="color:yellow">Medium</span></li>
-<li>Elbonia <span style="color:orange">Hard</span></li>
-<li>Gotta Ping Em All <span style="color:red">Expert</span></li>
+<li>Copy the text file data and paste into the input section.</li>
+<li>Select the following Recipes and options:
+<ul>
+<li>From Binary:  Delimiter (Space), Byte Length (8)</li>
+<li>From Decimal: Delimiter (Space)</li>
+<li>From Hex:     Delimiter (Space)</li>
+<li>From Base64:  Alphabet  (A-Za-z0-9+/=), Remove non-alphabet chars (True)</li>
 </ul>
+</li>
+<li>Bake</li>
+<li>Output provides the Flag.
+<img src="/images/patriotctf_2023/Multi-numeral_CyberChef_Decode.png" alt="CyberChef Decoding image"></li>
+</ul>
+</li>
+</ol>
+<h3 id="flag">FLAG:</h3>
+<dl>
+<dt><code>PCTF{w0w_s0_m4ny_number5}</code></dt>
+<dd>Flag is case sensitive.</dd>
+</dl>
 <div class="edit-meta">
-Last updated on 2023-09-13
+Last updated on 2023-09-11
 
 
 <br>
-Published on 2023-09-13
-<br><a href="https://github.com/ImpossibleTerminal/ImpossibleTerminal.github.io.git/edit/main/CSAW_23%5cForensics.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://ImpossibleTerminal.github.io/csaw_23/crypto/secret_wall_code/" title="Secret Wall Code"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - Secret Wall Code</a>
-<a class="nav nav-next" href="https://ImpossibleTerminal.github.io/csaw_23/misc/" title="Miscellaneous">Next - Miscellaneous <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+Published on 2023-09-11
+<br><a href="https://github.com/ImpossibleTerminal/ImpossibleTerminal.github.io.git/edit/main/PatriotCTF_2023%5cCrypto%5cMulti-numeral.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/breakfast_club/" title="Breakfast Club"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - Breakfast Club</a>
+<a class="nav nav-next" href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/my_phone/" title="My Phone!">Next - My Phone! <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
 </main>
@@ -95,15 +123,15 @@ Published on 2023-09-13
 <ul>
 <li class=""><a href="https://ImpossibleTerminal.github.io">Home</a></li>
 
-<li class=" has-sub-menu"><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/">PatriotCTF 2023<span class="mark closed">+</span></a>
+<li class="parent has-sub-menu"><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/">PatriotCTF 2023<span class="mark opened">-</span></a>
   
 <ul class="sub-menu">
 
-<li class=" has-sub-menu"><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/">Cryptography<span class="mark closed">+</span></a>
+<li class="parent has-sub-menu"><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/">Cryptography<span class="mark opened">-</span></a>
   
 <ul class="sub-menu">
 <li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/breakfast_club/">Breakfast Club</a></li>
-<li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/multi-numeral/">Multi-numeral</a></li>
+<li class="active"><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/multi-numeral/">Multi-numeral</a></li>
 <li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/my_phone/">My Phone!</a></li>
 <li class=""><a href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/secret_wall_code/">Secret Wall Code</a></li>
 </ul>
@@ -136,7 +164,7 @@ Published on 2023-09-13
   
 </li>
 
-<li class="parent has-sub-menu"><a href="https://ImpossibleTerminal.github.io/csaw_23/">CSAW&#39;23 - Qualification Round<span class="mark opened">-</span></a>
+<li class=" has-sub-menu"><a href="https://ImpossibleTerminal.github.io/csaw_23/">CSAW&#39;23 - Qualification Round<span class="mark closed">+</span></a>
   
 <ul class="sub-menu">
 
@@ -150,7 +178,7 @@ Published on 2023-09-13
 </ul>
   
 </li>
-<li class="active"><a href="https://ImpossibleTerminal.github.io/csaw_23/forensics/">Forensics</a></li>
+<li class=""><a href="https://ImpossibleTerminal.github.io/csaw_23/forensics/">Forensics</a></li>
 
 <li class=" has-sub-menu"><a href="https://ImpossibleTerminal.github.io/csaw_23/misc/">Miscellaneous<span class="mark closed">+</span></a>
   

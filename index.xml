@@ -119,10 +119,10 @@ Split downloaded file into single hash files. Utilize john and hashcat to crack 
     
     <item>
       <title>Multi-numeral</title>
-      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/mult-numeral/</link>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/multi-numeral/</link>
       <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
       
-      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/mult-numeral/</guid>
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/multi-numeral/</guid>
       <description>
 Write-Up Download the file provided for the challenge (Challenge.txt).
 Go to decoding website CyberChef (https://gchq.github.io/CyberChef/).
