@@ -6,7 +6,7 @@
     <description>Recent content in Cryptography on ImpossibleTerminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2023 17:28:35 -0500</lastBuildDate><atom:link href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 10:00:01 +0000</lastBuildDate><atom:link href="https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breakfast Club</title>
       <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/breakfast_club/</link>
@@ -19,6 +19,31 @@ Split downloaded file into single hash files. Utilize john and hashcat to crack 
     </item>
     
     <item>
+      <title>Multi-numeral</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/mult-numeral/</link>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/mult-numeral/</guid>
+      <description>
+Write-Up Download the file provided for the challenge (Challenge.txt).
+Go to decoding website CyberChef (https://gchq.github.io/CyberChef/).
+Copy the text file data and paste into the input section. Select the following Recipes and options: From Binary: Delimiter (Space), Byte Length (8) From Decimal: Delimiter (Space) From Hex: Delimiter (Space) From Base64: Alphabet (A-Za-z0-9+/=), Remove non-alphabet chars (True) Bake Output provides the Flag. FLAG: PCTF{w0w_s0_m4ny_number5} Flag is case sensitive. </description>
+    </item>
+    
+    <item>
+      <title>My Phone!</title>
+      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/my_phone/</link>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
+      
+      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/my_phone/</guid>
+      <description>Write-Up Download the file provided for the challenge (cipher.png).
+Viewed the image provided and recognized the pattern as latitude and logitude for coordinates.
+Flag format within challenge page assists in validating the cipher pattern. Latitude and Longitude pattern traits:
+Latitude: +/- 0 to 90 degrees XX.XXXX (max characters) Longitude: +/- 0 to 180 degrees XXX.XXXX (max characters) Symbols in the cipher show maximum unique symbols to be 14.
+Deducing down the symbols to Alphabet, not Numbers.</description>
+    </item>
+    
+    <item>
       <title>Secret Wall Code</title>
       <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/secret_wall_code/</link>
       <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
@@ -28,24 +53,6 @@ Split downloaded file into single hash files. Utilize john and hashcat to crack 
 Utilize the Hint for the challenge to arrange the alphabet in the proper order.
 Alpha Z, 6 groups:
 Break the alphabet into 6 groups in order of A-Z. 1 2 3 4 5 6 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Reverse 5 3 1:</description>
-    </item>
-    
-    <item>
-      <title>Multi-numeral</title>
-      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/mult-numeral/</link>
-      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
-      
-      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/mult-numeral/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title>My Phone</title>
-      <link>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/my_phone/</link>
-      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
-      
-      <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/crypto/my_phone/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
   </channel>

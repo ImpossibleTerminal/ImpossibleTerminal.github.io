@@ -6,14 +6,16 @@
     <description>Recent content in Web on ImpossibleTerminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2023 17:28:35 -0500</lastBuildDate><atom:link href="https://ImpossibleTerminal.github.io/patriotctf_2023/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 10:00:01 +0000</lastBuildDate><atom:link href="https://ImpossibleTerminal.github.io/patriotctf_2023/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scavenger Hunt</title>
       <link>https://ImpossibleTerminal.github.io/patriotctf_2023/web/scavenger_hunt/</link>
-      <pubDate>Tue, 17 Oct 2017 15:26:15 +0000</pubDate>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
       
       <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/web/scavenger_hunt/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <description>Scavenger Hunt - Hint 1 (NOT USED)![Scavenger Hunt Challenge Hint 1](/images/patriotctf_2023/Scavenger_Hunt_Hint_1.jpg)Scavenger Hunt - Hint 2 (NOT USED)![Scavenger Hunt Challenge Hint 2](/images/patriotctf_2023/Scavenger_Hunt_Hint_2.jpg)Write-Up Opened up the Terminal and ran dirb command on the website:
+dirb http://chal.pctf.competitivecyber.club:5999 Scan results provided the following 2 URLs: /index.html (main website) /robots.txt (file located on website) Opened up Burpsuite and used Proxy browser with Interceptor turned on.
+Entered URL listed on the challenge page.</description>
     </item>
     
   </channel>

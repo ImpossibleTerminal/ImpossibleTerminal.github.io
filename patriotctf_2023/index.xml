@@ -6,11 +6,11 @@
     <description>Recent content in PatriotCTF 2023 on ImpossibleTerminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2023 17:28:35 -0500</lastBuildDate><atom:link href="https://ImpossibleTerminal.github.io/patriotctf_2023/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 10:00:01 +0000</lastBuildDate><atom:link href="https://ImpossibleTerminal.github.io/patriotctf_2023/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Forensics</title>
       <link>https://ImpossibleTerminal.github.io/patriotctf_2023/forensics/</link>
-      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
       
       <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/forensics/</guid>
       <description>PCAPs and file carving and memory dumps (oh my!) Capybara Easy Congratulations Easy Unsupported Format Easy Evil Monkey 1 Medium Evil Monkey 2 Medium Read The EULA Medium Unsupported Format 2 Medium Elbonia Hard Gotta Ping Em All Expert </description>
@@ -19,7 +19,7 @@
     <item>
       <title>OSINT</title>
       <link>https://ImpossibleTerminal.github.io/patriotctf_2023/osint/</link>
-      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
       
       <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/osint/</guid>
       <description>Who&amp;rsquo;s shooting those cyber bullets at me? Bad Documentation Easy Rouge Access Point Easy Satellite Killer Easy Karter Medium Marketing Campaign Hard Name That Plane Hard </description>
@@ -28,7 +28,7 @@
     <item>
       <title>Pwn</title>
       <link>https://ImpossibleTerminal.github.io/patriotctf_2023/pwn/</link>
-      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
       
       <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/pwn/</guid>
       <description>Good old-fashioned binary exploitation! guessinggame Beginner bookshelf Easy printshop Easy bookshelfv2 Medium Note Taker Expert softshell Expert </description>
@@ -37,7 +37,7 @@
     <item>
       <title>Reverse Engineering</title>
       <link>https://ImpossibleTerminal.github.io/patriotctf_2023/rev/</link>
-      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
       
       <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/rev/</guid>
       <description>Figuring out how things work, then breaking those things! Python XOR Beginner Coffee Shop Easy Patchwork Easy Python Garbage Compiler Medium Suboptimal Medium GoLmoL Hard Reduced Reduced Instruction Set Hard Reduced Reduced Instruction Set 2 Expert </description>
@@ -46,7 +46,7 @@
     <item>
       <title>Trivia</title>
       <link>https://ImpossibleTerminal.github.io/patriotctf_2023/trivia/</link>
-      <pubDate>Wed, 13 Sep 2023 17:28:35 -0500</pubDate>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
       
       <guid>https://ImpossibleTerminal.github.io/patriotctf_2023/trivia/</guid>
       <description>George Mason University related challenges and questions! 1972 Schism Beginner Mascot Conundrum Beginner Final Four Easy Getting down like a bunch of Tito Clowns Easy Mason ID OSINT Easy </description>
