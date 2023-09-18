@@ -6,7 +6,7 @@
     <description>Recent content in Home on ImpossibleTerminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2023 17:28:35 -0500</lastBuildDate><atom:link href="https://ImpossibleTerminal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 17:28:35 -0500</lastBuildDate><atom:link href="https://ImpossibleTerminal.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Forensics</title>
       <link>https://ImpossibleTerminal.github.io/csaw_23/forensics/</link>
@@ -100,10 +100,10 @@
     <item>
       <title>About</title>
       <link>https://ImpossibleTerminal.github.io/about/</link>
-      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Sep 2023 10:00:01 +0000</pubDate>
       
       <guid>https://ImpossibleTerminal.github.io/about/</guid>
-      <description>Hacker learning the tools of the trade via TryHackMe and HTB.</description>
+      <description>A Hacker learning the tools of the trade via TryHackMe and HTB.</description>
     </item>
     
     <item>

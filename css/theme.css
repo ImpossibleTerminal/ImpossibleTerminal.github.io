@@ -403,14 +403,14 @@ fieldset {
 :root {
   font-size: 18px;
   line-height: 1.6666666667;
-  color: #000;
+  color: #32CD32;
   font-family: var(--custom-font-family-base, -apple-system, BlinkMacSystemFont, "游ゴシック体", YuGothic, "メイリオ", Meiryo, "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
   -webkit-font-feature-settings: "pwid";
           font-feature-settings: "pwid";
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #111111;
   margin: 0;
 }
 
@@ -545,8 +545,8 @@ dd {
 blockquote {
   color: #999;
   padding: 1.6666666667rem;
-  background-color: #f4f4f4;
-  border-left: 4px solid #f0f0f0;
+  background-color: #4d2525;
+  border-left: 4px solid #111111;
   border-radius: 0.2rem;
 }
 
@@ -563,16 +563,16 @@ kbd {
 }
 
 code {
-  background-color: #f4f4f4;
+  background-color: #111111;
 }
 
 kbd {
-  color: #fff;
-  background-color: #333;
+  color: #32CD32;
+  background-color: #111111;
 }
 
 pre {
-  background-color: #f4f4f4;
+  background-color: #111111;
   padding: 1.6666666667rem;
   overflow: auto;
   white-space: pre-wrap;
@@ -820,11 +820,11 @@ main:only-child {
   }
 }
 .panel {
-  --panel-font-color: #000;
+  --panel-font-color: #32CD32;
   --panel-background-color: unset;
   --panel-border-color: transparent;
   padding: 1.6666666667rem;
-  color: var(--panel-font-color, #000);
+  color: var(--panel-font-color, #32CD32);
   background: var(--panel-background-color, unset);
   border: 1px solid;
   border-color: var(--panel-border-color, transparent);
@@ -835,39 +835,39 @@ main:only-child {
 }
 
 .panel-primary {
-  --panel-border-color: #f0f0f0;
+  --panel-border-color: #111111;
 }
 
 .panel-notice {
-  --panel-font-color: #fff;
+  --panel-font-color: #32CD32;
   --panel-background-color: #4ba0e1;
   --custom-link-text-color: #fff;
   --custom-link-text-hover-color: #fff;
 }
 
 .panel-success {
-  --panel-font-color: #fff;
+  --panel-font-color: #32CD32;
   --panel-background-color: #609f43;
   --custom-link-text-color: #fff;
   --custom-link-text-hover-color: #fff;
 }
 
 .panel-caution {
-  --panel-font-color: #fff;
+  --panel-font-color: #32CD32;
   --panel-background-color: #de776d;
   --custom-link-text-color: #fff;
   --custom-link-text-hover-color: #fff;
 }
 
 .panel-warning {
-  --panel-font-color: #fff;
+  --panel-font-color: #32CD32;
   --panel-background-color: #e67e22;
   --custom-link-text-color: #fff;
   --custom-link-text-hover-color: #fff;
 }
 
 .panel-danger {
-  --panel-font-color: #fff;
+  --panel-font-color: #32CD32;
   --panel-background-color: #ce3426;
   --custom-link-text-color: #fff;
   --custom-link-text-hover-color: #fff;
@@ -880,24 +880,24 @@ main:only-child {
   font-weight: bold;
   text-decoration: none;
   border-radius: 0.8rem;
-  --button-font-color: #000;
-  --button-font-hover-color: #000;
+  --button-font-color: #32CD32;
+  --button-font-hover-color: #2a7a6d;
   --button-background-color: #fafafa;
   --button-background-hover-color: #f7f7f7;
   --button-border-color: #f0f0f0;
-  color: var(--button-font-color, #000);
+  color: var(--button-font-color, #32CD32);
   background: var(--button-background-color, unset);
   border: 2px solid;
   border-color: var(--button-border-color, transparent);
 }
 .button:hover {
-  color: var(--button-font-hover-color, #000);
+  color: var(--button-font-hover-color, #2a7a6d);
   text-decoration: none;
   background: var(--button-background-hover-color, unset);
 }
 
 .button-notice {
-  --button-font-color: #fff;
+  --button-font-color: #32CD32;
   --button-font-hover-color: #fff;
   --button-background-color: #4ba0e1;
   --button-background-hover-color: #3b89c5;
@@ -905,7 +905,7 @@ main:only-child {
 }
 
 .button-success {
-  --button-font-color: #fff;
+  --button-font-color: #32CD32;
   --button-font-hover-color: #fff;
   --button-background-color: #369b08;
   --button-background-hover-color: #256905;
@@ -913,7 +913,7 @@ main:only-child {
 }
 
 .button-caution {
-  --button-font-color: #fff;
+  --button-font-color: #32CD32;
   --button-font-hover-color: #fff;
   --button-background-color: #f56558;
   --button-background-hover-color: #d45145;
@@ -921,7 +921,7 @@ main:only-child {
 }
 
 .button-warning {
-  --button-font-color: #fff;
+  --button-font-color: #32CD32;
   --button-font-hover-color: #fff;
   --button-background-color: #f5811b;
   --button-background-hover-color: #db7012;
@@ -929,7 +929,7 @@ main:only-child {
 }
 
 .button-danger {
-  --button-font-color: #fff;
+  --button-font-color: #32CD32;
   --button-font-hover-color: #fff;
   --button-background-color: #ce3426;
   --button-background-hover-color: #a0281d;
@@ -939,7 +939,7 @@ main:only-child {
 .notification {
   padding: 0.2rem 1.6666666667rem;
   text-align: center;
-  background: #eee;
+  background: #111111;
 }
 
 .backtothetop {
@@ -948,7 +948,7 @@ main:only-child {
 }
 
 .fa-layers .fa-circle {
-  color: #fff;
+  color: #111111;
 }
 
 figure > figcaption h4 {
@@ -959,14 +959,14 @@ figure > figcaption h4 {
 .table_of_contents {
   font-size: 90%;
   padding: 1.6666666667rem;
-  border: 4px solid #f0f0f0;
+  border: 4px solid #111111;
 }
 .table_of_contents ul {
   list-style: none;
   padding-left: 0;
 }
 .table_of_contents li {
-  border-top: 1px solid #f0f0f0;
+  border-top: 1px solid #111111;
 }
 .table_of_contents > nav > ul > li:first-child {
   border-top: unset;
@@ -1108,8 +1108,8 @@ figure > figcaption h4 {
   }
 }
 header {
-  color: var(--custom-font-color, #fff);
-  background: var(--custom-background-color, #000);
+  color: var(--custom-font-color, #32CD32);
+  background: var(--custom-background-color, #111111);
   padding: 0.5rem 1.6666666667rem;
 }
 header h1 {
@@ -1127,8 +1127,8 @@ header .github {
 }
 
 .global-menu {
-  color: var(--custom-font-color, #fff);
-  background: var(--custom-background-color, #000);
+  color: var(--custom-font-color, #32CD32);
+  background: var(--custom-background-color, #111111);
   padding: 0.2rem 1.6666666667rem;
 }
 .global-menu ul {
@@ -1151,12 +1151,12 @@ header .github {
 }
 .global-menu ul.sub-menu li {
   padding: 0.2rem 1.6666666667rem;
-  background: var(--custom-background-color, #000);
+  background: var(--custom-background-color, #111111);
   width: 140px;
   font-size: 80%;
 }
 .global-menu ul.sub-menu li a {
-  color: var(--custom-font-color, #fff);
+  color: var(--custom-font-color, #32CD32);
 }
 .global-menu .fa-angle-right {
   margin-left: 0.4rem;
@@ -1233,16 +1233,16 @@ main {
 .sidebar a {
   position: relative;
   display: block;
-  color: #404040;
+  color: #32CD32;
   text-decoration: none;
   padding: 0.2rem 1rem;
-  border-left: solid 4px #f9f9f9;
-  border-bottom: solid 1px #eee;
+  border-left: solid 4px #111111;
+  border-bottom: solid 1px #111111;
 }
 .sidebar a:hover {
-  color: #404040;
-  background: #eee;
-  border-left: solid 4px #ccc;
+  color: #2a7a6d;
+  background: #111111;
+  border-left: solid 4px #111111;
 }
 .sidebar nav > ul > li li a {
   padding-left: 2rem;
@@ -1301,5 +1301,5 @@ main {
 .powered {
   font-size: 80%;
   text-align: right;
-  color: #999;
+  color: #32CD32;
 }
